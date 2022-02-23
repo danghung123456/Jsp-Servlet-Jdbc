@@ -1,0 +1,12 @@
+web.xml config
+
+
+<!-- neu khong co cai doan filter nay` thi khi user request thi decorator se khong lay duoc url va phan tich ra  -->
+<filter>
+<filter-name>sitemesh</filter-name>
+<filter-class>com.opensymphony.module.sitemesh.filter.PageFilter</filter-class>
+</filter>
+<filter-mapping>
+<filter-name>sitemesh</filter-name>
+<url-pattern>/*</url-pattern>
+</filter-mapping>
